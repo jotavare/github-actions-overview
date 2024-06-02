@@ -50,7 +50,7 @@ All tests passed
 3. **Compile**: Compiles the `math.c` and `test_math.c` files.
 4. **Run Tests**: Runs the compiled test executable.
 
-The tests are run automatically on every push and pull request to the repository. Other events that triiger workflows are available [here](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows).
+The tests are run automatically on every push and pull request to the repository. Other events that trigger workflows are available [here](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows).
 
 ## CONTRIBUTING
 
@@ -58,4 +58,4 @@ If you find any issues or have suggestions for improvements, feel free to open a
 
 ## LICENSE
 
-This project is licensed under the The Unlicense License. See the [LICENSE](https://github.com/jotavare/github-actions-overview/blob/main/LICENSE) file for details.
+This project is licensed under The Unlicense License. See the [LICENSE](https://github.com/jotavare/github-actions-overview/blob/main/LICENSE) file for details.
