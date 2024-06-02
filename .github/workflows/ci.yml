@@ -13,7 +13,7 @@ jobs:
       run: sudo apt-get update && sudo apt-get install -y gcc
 
     - name: Compile
-      run: gcc -o test_math sources/math.c sources/test_math.c
+      run: gcc -Iincludes -o test_math sources/math.c sources/test_math.c
 
     - name: Run Tests
       run: ./test_math
