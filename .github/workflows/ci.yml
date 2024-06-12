@@ -1,17 +1,10 @@
 name: C CI
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-      branches: [ master ]
+on: [push, pull_request]
 
 jobs:
   build:
-    runs-on: ${{matrix.os}}
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v4
@@ -20,7 +13,7 @@ jobs:
       run: sudo apt-get update && sudo apt-get install -y gcc
 
     - name: Compile
-      run: gcc -Iincludes -o test_math sources/math.c sources/test_math.c
+      run: gcc -o test_math sources/math.c sources/test_math.c
 
     - name: Run Tests
       run: ./test_math
