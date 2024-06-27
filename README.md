@@ -54,8 +54,8 @@ The tests are run automatically on every push and pull request to the repository
 
 ## CONTRIBUTING
 
-If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+If you find any issues or have suggestions for improvements, feel free to fork the repository and open an issue or submit a pull request.
 
 ## LICENSE
 
-This project is licensed under The Unlicense License. See the [LICENSE](https://github.com/jotavare/github-actions-overview/blob/main/LICENSE) file for details.
+This project is available under the MIT License. For further details, please refer to the [LICENSE](https://github.com/jotavare/github-actions-overview/blob/main/LICENSE) file.
