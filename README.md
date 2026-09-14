@@ -4,9 +4,9 @@ This repository contains basic math functions (add, subtract, multiply, divide) 
 
 ## FILES
 
-- `math.c`: Contains the implementation of the math functions.
-- `math.h`: Header file declaring the math functions.
-- `test_math.c`: Contains test cases to verify the functionality of the math functions.
+- `sources/math.c`: Contains the implementation of the math functions.
+- `includes/math.h`: Header file declaring the math functions.
+- `sources/test_math.c`: Contains test cases to verify the functionality of the math functions.
 - `.github/workflows/ci.yml`: GitHub Actions workflow configuration for continuous integration (CI).
 
 ## FUNCTIONS
@@ -24,13 +24,13 @@ To compile and run the tests locally, you need to have GCC installed.
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/math-functions.git
-   cd math-functions
+   git clone https://github.com/jotavare/github-actions-overview.git
+   cd github-actions-overview
    ```
 
 2. Compile the code:
    ```sh
-   gcc -o test_math math.c test_math.c
+   gcc -o test_math sources/math.c sources/test_math.c
    ```
 
 3. Run the tests:
@@ -54,7 +54,7 @@ The tests are run automatically on every push and pull request to the repository
 
 ## CONTRIBUTING
 
-If you find any issues or have suggestions for improvements, feel free to fork the repository and open an issue or submit a pull request.
+This repository is a finished example project and is not open to external changes.
 
 ## LICENSE
 
