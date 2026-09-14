@@ -1,0 +1,10 @@
+*.o
+*.a
+*.out
+test_math
+*.swp
+*~
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
