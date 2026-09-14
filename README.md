@@ -1,3 +1,20 @@
+<p align="center">
+	<img src="https://img.shields.io/badge/status-finished-success?color=%2312bab9&style=flat-square"/>
+	<img src="https://img.shields.io/github/languages/top/jotavare/github-actions-overview?color=%2312bab9&style=flat-square"/>
+	<img src="https://img.shields.io/github/last-commit/jotavare/github-actions-overview?color=%2312bab9&style=flat-square"/>
+	<a href='https://www.linkedin.com/in/jotavare' target="_blank"><img alt='Linkedin' src='https://img.shields.io/badge/LinkedIn-blue?style=flat-square'/></a>
+</p>
+
+<p align="center">
+	<a href="#about">About</a> •
+	<a href="#files">Files</a> •
+	<a href="#functions">Functions</a> •
+	<a href="#test-locally">Test locally</a> •
+	<a href="#ci-workflow-steps">CI workflow steps</a> •
+	<a href="#contributing">Contributing</a> •
+	<a href="#license">License</a>
+</p>
+
 ## ABOUT
 
 This repository contains basic math functions (add, subtract, multiply, divide) written in C and a test example to ensure their correctness. It also includes a GitHub Actions workflow for continuous integration (CI) to automatically compile and test the code.
