@@ -8,3 +8,11 @@ test_math
 Thumbs.db
 .vscode/
 .idea/
+
+# Env / secrets
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+credentials.json
