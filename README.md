@@ -71,7 +71,7 @@ The tests are run automatically on every push and pull request to the repository
 
 ## CONTRIBUTING
 
-This repository is a finished example project and is not open to external changes.
+This repository is finished and not open to changes.
 
 ## LICENSE
 
